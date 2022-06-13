@@ -1,4 +1,5 @@
 <template>
+  <slot name="summary"></slot>
   <slot name="nav"></slot>
   <slot name="content">
       <div class="about hidden-scrollbar" id="content" @scroll="$emit('scrollHandle')">
