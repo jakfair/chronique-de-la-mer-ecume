@@ -132,13 +132,13 @@ export default {
 #content {
   position: absolute;
   z-index: 2;
-  height: 80vh;
+  height: 100vh;
   margin-left: 20vw;
   margin-right: 20vw;
   overflow-y: scroll;
   width: 60vw;
   background-color: rgba(255, 255, 128, .5);
-  padding: 150px 5px 0 5px;
+  padding: 0 5px 0 5px;
 }
 
 #content > * {
@@ -214,7 +214,9 @@ a {
   color: #2c3e50;
   text-decoration: none;
 }
-
+h1 {
+  padding-top: 150px;
+}
 a.router-link-exact-active .focus {
   color: #42b983;
 }
